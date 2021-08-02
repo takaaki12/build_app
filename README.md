@@ -25,8 +25,8 @@ docker-compose build
 
 
 ### ④データベースの設定と作成
-データベースの情報を設定するために、config/database.ymlを変更し、コマンドでDBを作成する。
-config/database.yml
+データベースの情報を設定するために、config/database.ymlファイルを変更し、コマンドでDBを作成する。
+
 ```# 設定箇所のみ抜粋
 default: &default
   adapter: mysql
@@ -52,7 +52,7 @@ test:
 
 
 
-##　それぞれのおしごと
+## それぞれのおしごと
 
 
 ### ⑥リモートリポジトリからローカルへclone
