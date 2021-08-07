@@ -30,7 +30,7 @@ docker-compose build
 ```# 設定箇所のみ抜粋
 default: &default
   adapter: mysql
-  encoding: unicode
+  encoding: utf8mb4
   host: db
   username: mysql
   password: password # docker-compose.ymlのPOSTGRES_PASSWORDで指定した値
